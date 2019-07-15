@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="1dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/chimex"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okeke Chimezie"
+        android:paddingTop="20dp"
+
+
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:freezesText="true"
+        android:paddingLeft="15dp" />
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+
+        android:background="?android:attr/listDivider"
+        android:foreground="@android:drawable/bottom_bar"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track:  Android"
+        android:paddingTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country:  Nigeria"
+        android:paddingTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:  okekechimezieglory@gmail.com"
+        android:paddingTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number:  08136017579"
+        android:paddingTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewSlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slack username:  Chimex"
+        android:paddingTop="20dp"
+        android:textSize="20sp" />
+</LinearLayout>
